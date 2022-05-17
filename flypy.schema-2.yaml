@@ -213,7 +213,7 @@ simplification:
   option_name: simplification
   tips: all
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz;'[]"
+  alphabet: "abcdefghijklmnopqrstuvwxyz;'"
   auto_clear: max_length
   auto_select: true
   auto_select_pattern: "^;.$|^\\w{4}$"

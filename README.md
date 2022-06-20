@@ -5,10 +5,7 @@
 1. 打开小鹤下载站：http://flypy.ysepan.com/
 2. 打开「3.1.挂接——辅助码」
 3. 下载「小鹤音形“小狼毫”for Windows.zip」
-4. 安装改良方案（二选一）
-    1. 下载`flypy.schema.yaml`后放入「程序文件夹」：右键点击小狼毫“中”字图标，在菜单中选择“程序文件夹”，或者直接找到C:\Program Files (x86)\Rime\weasel-0.14.3\data放入。
-    2. 下载`flypy.custom.yaml`后放入「用户文件夹」：右键点击小狼毫“中”字图标，在菜单中选择“用户文件夹”，或者直接找到C:\Users\你的用户名\AppData\Roaming\Rime放入。
-
+4. 安装改良方案：下载`flypy.custom.yaml`后放入「用户文件夹」。右键点击小狼毫“中”字图标，在菜单中选择“用户文件夹”，或者直接找到C:\Users\你的用户名\AppData\Roaming\Rime放入。
 5. （可选）将`rime.lua`和`default.custom.yaml`文件放入「用户文件夹」，或参照以上文件对本机对应文件进行修改。
 
 ## 改良特色
@@ -23,4 +20,6 @@
 
 本方案可能仅适用于Windows操作系统，但如果想要兼容其他操作系统应该也不麻烦。
 
-只需要对照`flypy.schema.yaml`相比于`flypy.schema_original`作出的改动，再根据自己操作系统的方案修改即可。
+只需要对照`flypy.schema.yaml`和`flypy.custom.yaml`作出的改动，再根据自己操作系统的方案修改即可。
+
+考虑输入方案可能会随时变动，因此不再提供根据`flypy.custom.yaml`改动的`flypy.schema.yaml`文件，若想获取，可以直接对比两者进行修改。

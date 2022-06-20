@@ -12,8 +12,8 @@ patch:
     - {schema: flypy}
     - {schema: bopomofo}
     - {schema: luna_pinyin}
-  switcher:
-    caption: "「切换方案」"
-    hotkeys: "Control+grave"
+  switcher/hotkeys: 
+    - "Control+grave"
+  switcher/caption: "「切换方案」"
   ascii_composer/switch_key/Shift_L: commit_code
   ascii_composer/switch_key/Shift_R: commit_code

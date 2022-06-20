@@ -109,6 +109,7 @@ patch:
     - {accept: Tab, send: Escape, when: composing}
     - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
+  history/size: 5
   menu/page_size: 7
   punctuator/full_shape:
     " ": {commit: "　"}

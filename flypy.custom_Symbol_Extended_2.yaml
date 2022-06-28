@@ -101,11 +101,11 @@ patch:
     - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
     - {accept: Caps_Lock, send: Escape, when: composing}
-    - {accept: comma, send: comma, when: paging}
-    - {accept: period, send: period, when: has_menu}
+    - {accept: comma, send: comma, when: composing}
+    - {accept: period, send: period, when: composing}
     - {accept: semicolon, send: 2, when: has_menu}
-    - {accept: "Release+period", send: period, when: composing}
-    - {accept: "Release+comma", send: comma, when: composing}
+    #- {accept: "Release+period", send: period, when: composing}
+    #- {accept: "Release+comma", send: comma, when: composing}
     - {accept: Tab, send: Escape, when: composing}
     - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}

@@ -37,7 +37,7 @@ patch:
       - {accept: Shift_R, toggle: ascii_mode, when: always}
       - {accept: Shift_L, toggle: ascii_mode, when: always}
       - {accept: semicolon, send: 2, when: has_menu}
-  history/size: 5
+  history/size: 1
   menu/page_size: 7
   punctuator/import_preset: symbols
   recognizer:
